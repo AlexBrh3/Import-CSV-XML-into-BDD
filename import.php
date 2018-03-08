@@ -78,7 +78,7 @@ class import
         return $champs;
     }
 
-    public function getlineXML ($data, $users){
+    public function getlineXML ($users){
             $line = "";
             foreach ($users as $value){
                 $line .= ', "'.$value.'"';
@@ -95,7 +95,6 @@ class import
         $champs = substr($champs, 2);
         return $champs;
     }
-
 }
 
 
