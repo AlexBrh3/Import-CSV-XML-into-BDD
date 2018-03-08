@@ -41,10 +41,7 @@ function add_into_db ($dbname, $table, $host, $login, $password, $path, $filenam
         else if ($ext == "xml") {
             $data = $import->importXML();
             $champs = $import->getChampXML($data);
-
             
-            die;
-
             foreach ($data->user as $users) {
                 $line = $import->getlineXML($data, $users);
                 $pdo->exec('INSERT INTO ' . $table . ' (' . $champs . ') VALUES ('
