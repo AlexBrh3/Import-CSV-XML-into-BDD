@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user>
+        <id>1</id>
+        <first_name>Johnna</first_name>
+        <last_name>Goseling</last_name>
+        <email>jgoseling0@earthlink.net</email>
+        <gender>Female</gender>
+        <ip_address>55.59.141.105</ip_address>
+    </user>
+    <user>
+        <id>2</id>
+        <first_name>Lorry</first_name>
+        <last_name>Habbert</last_name>
+        <email>lhabbert1@about.com</email>
+        <gender>Male</gender>
+        <ip_address>23.243.137.64</ip_address>
+    </user>
+    <user>
+        <id>3</id>
+        <first_name>Shell</first_name>
+        <last_name>Deble</last_name>
+        <email>sdeble2@usgs.gov</email>
+        <gender>Male</gender>
+        <ip_address>155.188.72.30</ip_address>
+    </user>
+</users>
