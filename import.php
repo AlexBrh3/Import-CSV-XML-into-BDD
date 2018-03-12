@@ -62,7 +62,7 @@ class import
 
     public function getLineCSV ($data, $i){
             $line = "";
-            for ($j = 0; $j < count($data[0]); $j++) {
+            for ($j = 1; $j < count($data[0]); $j++) {
                 $line .= ', "' . $data[$i][$j] . '"';
             }
             $line = substr($line, 2);
@@ -71,7 +71,7 @@ class import
 
     public function getChampCSV ($data){
         $champs = "";
-        for ($i = 0; $i < count($data[0]); $i++) {
+        for ($i = 1; $i < count($data[0]); $i++) {
             $champs .= ", " . $data[0][$i];
         }
         $champs = substr($champs, 2);

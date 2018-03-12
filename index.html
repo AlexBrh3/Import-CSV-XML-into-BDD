@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <p><label for="first_name">Prénom : </label><input type="text" name="first_name" id="first_name" placeholder="Prénom"></p>
+        <p><label for="last_name">Nom : </label><input type="text" name="last_name" id="last_name" placeholder="Nom"></p>
+        <p><label for="email">Email : </label><input type="email" name="email" id="email" placeholder="Adresse email"></p>
+        <p><label for="gender">Sexe : </label><input type="text" name="gender" id="gender" placeholder="Gender"></p>
+        <p><label for="ip_address">Adresse IP : </label><input type="text" name="ip_address" id="ip_address" placeholder="Adresse IP"></p>
+        <p><input type="hidden" name="MAX_FILE_SIZE" value="100000">
+        <p><strong>OU</strong></p>
+        <p><input type="file" name="fichier" id="file"></p>
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
